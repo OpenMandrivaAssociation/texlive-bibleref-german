@@ -1,3 +1,9 @@
+# revision 21923
+# category Package
+# catalog-ctan /macros/latex/contrib/bibleref-german
+# catalog-date 2011-04-02 19:46:11 +0200
+# catalog-license lppl1.3
+# catalog-version 1.0a
 Name:		texlive-bibleref-german
 Version:	1.0a
 Release:	1
@@ -49,6 +55,7 @@ supported.
 %doc %{_texmfdistdir}/doc/latex/bibleref-german/de-bibleref-german.tex
 %doc %{_texmfdistdir}/doc/latex/bibleref-german/en-bibleref-german.pdf
 %doc %{_texmfdistdir}/doc/latex/bibleref-german/en-bibleref-german.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +66,5 @@ supported.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
