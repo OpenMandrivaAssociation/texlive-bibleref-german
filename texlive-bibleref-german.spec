@@ -1,6 +1,6 @@
 Name:		texlive-bibleref-german
 Version:	21923
-Release:	1
+Release:	2
 Summary:	German adaptation of bibleref
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bibleref-german
