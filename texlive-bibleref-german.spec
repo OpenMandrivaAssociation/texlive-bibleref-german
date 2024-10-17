@@ -3,7 +3,7 @@ Version:	21923
 Release:	2
 Summary:	German adaptation of bibleref
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bibleref-german
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/bibleref-german
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibleref-german.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibleref-german.doc.r%{version}.tar.xz
